@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align:right;
+}
+.menu {
+text-align: right;
+width: 100%;
+margin: auto;
+display: block;
+}
+.menu ul {
+display: block;
+background-color: rgb(53, 53, 128);
+list-style: none;
+
+}
+.menu ul li {
+display: inline-block;
+}
+.menu ul li a {
+color: white;
+padding: 5px;
+text-align: right;
+float: right;
+display: block;
+}
+.menu u li a :hover {
+
+}
+/*       second part  */
+
+/*
+.image{
+
+        position: relative;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    
+}
+
+.header{
+    background:white;
+    margin-bottom: 20px;
+    
+}
+
+.header-logo img {
+
+height: 50px;
+
+}
+
+
+
+   width: 220px;position: relative;
+    background: blueviolet;
+    height: auto;
+  overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;*/
+
+
+}
+.search{
+    border:1px solid black;
+    padding:10px 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.btn{
+    position: absolute;
+    left: 270px;
+    top: 8px;
+    bottom: ;
+    border-radius: 50%;
+    font-size: 23px;
+    color:#blue;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(214, 200, 200);
+    border-radius: 50%;
+}@media only screen and (max-width: 480px)
+.Search.btn input[aria-label=Search] {
+    font-size: 1rem;
+}
+@media (max-width: 480px)
+.Search .kds-Form--field, .Search .Input {
+    max-width: 100%;
+}
+
+.van{
+margin: 40px;
+font-size: 20px;
+text-align: right;
+
+}
+#van{
+    font-size:30px;
+    margin-top: 20px;
+     
+}
+.user{
+font-size: 20px;
+display: block;
+margin: 20px;
+}
+.cart{
+font-size: 20px;
+
+}
+#cart2{
+    font-size: 30px;
+    margin-right: 40px;
+    display: block;
+    margin-top: 10px;
+}
+*/
+
+
+/*3rd part     */
+
+.title-banner{
+    
+    
+}
+/*itrm part   */
+
+.item{
+   margin: 15px;
+   box-sizing: border-box;
+   text-align: center;
+   cursor: pointer;
+   background-color: white;
+   padding-top: 30px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+
+
+
+}/*
+.overflow-hidden{
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.m-auato{  
+    margin-left: auto;
+    margin-right: auto;
+}/
+.banner{
+    background-image: url(./banner.jpg);
+    padding: 200px 0;
+    backgroepeat: no-repeat;
+    height:100% ;
+    width: 1280px;
+  }
+  .sweet h1{
+      text-align: left;
+      margin-top: 30px;
+      margin-right: 80px;
+      
+
+  }
+  .floral{
+      font-size: 22px;
+      margin: auto;
+      display: block;
+      margin-right: 50px;
+      text-align: left;
+  }
+  .flower{
+ max-width: 100%;
+ margin: 20px;
+margin-right: auto;
+margin-left: auto;
+border-radius:20px;
+text-align: center;
+height: auto;
+overflow: hidden;
+box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+  }
+/*    teb- menu start    */
+
+.tab-menu{
+    background-color: rgb(40, 40, 224);
+}
+
+
+.break-words {
+    word-wrap: break-word!important;
+}
+.m-0 {
+    margin: 0!important;
+}
+
+/*
+.tab-container{
+height: 100%;
+width: 100%;
+}
+.tab-container .button-container button{
+    width: 254px;
+    height:100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blueviolet;
+}
+.tab-container .button-container button:hover{
+    background-color: gray;
+}
+
+.tab-container.tab-panel{
+    height: 85px;
+     background-color:#7ef;
+text-align: center;
+padding-top: 10px;
+box-sizing: border-box;
+display: none;
+display: block;
+}*/
+.nav-pills  {
+    width: 100%;
+    background-color:lightgrey;
+    border-radius: 5px;
+    
+}
+.nav-item{
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.nav-link{
+color: black;
+transition: .5s;
+}
+.nav-link:hover{
+    background-color:white;
+    
+}
+#shop-all{
+    font-size: 25px;
+    float: right;
+    margin-bottom: 10px;
+
+}
+#shop-all2{
+    color: white;
+}
+#
+.bluebg{
+    background-color: rgb(45, 45, 131);
+}
+.item{
+    width:300px;
+    height:300px;
+    text-align: center;
+
+}
+.tab-menu{
+    background-color: #4471b7;
+}
+.tab-menu h2{
+    color:white;
+    font-size: 50px;
+}
+
+/*-----this weeks top deals */
+
+.tabmenu2nd{
+    background-color: white;
+}
+.tabmenu2nd h2 {
+    font-size: 40px;
+}
+.tabmenu2nd span {
+    font-size: 20px;
+}
+ .shop-all3{
+    color: #4471b7;
+    
+}
+
+
+/*****orange banner   */
+
+.orangebanner{
+   text-align: center;
+    border-radius: 10px;
+    margin-right:50px;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 304px;
+    width:1280 ;
+    box-shadow:0px 10px 15px rgba(0,0,0,0.3);
+}
+
+@media( max-width:700) {
+    .orangebanner{
+        text-align: center;
+        border-radius: 10px;
+        margin-right:50px;
+        max-width:100%;
+        box-shadow:0px 10px 15px rgba(0,0,0,0.3);
+    }
+}
+   /*   freshfoods*/
+   .freshfoods{
+       background-color: #ddd;
+   }
+   .freshfoods h2 {
+       margin-top: 10px;
+       font-size:40px;
+       padding-top: 10px;
+       padding-bottom: 20px;
+   }
+   .shop-all4{
+    color: #4471b7;
+   padding-bottom: 30px;
+   display: block;
+    
+}
+.bluebanner{
+    height: 180px;
+    width: 1280px;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-right:50px;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    box-shadow:0px 10px 15px rgba(0,0,0,0.3);
+    
+}
+/*yellow banner   */
+.yellowbanner h2{
+font-size: 40px;
+}
+
+.yellowbanner span {
+    padding-bottom: 50px;
+    display: block;
+}
+.yb {
+
+    max-width: 100%;
+    margin: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius:10px;
+   text-align: center;
+   height: auto;
+   overflow: hidden;
+   box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+
+}
+.carton{
+    max-width: 100%;
+    margin: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius:10px;
+   text-align: center;
+   height: auto;
+   overflow: hidden;
+   box-shadow: 0px 10px 15px rgba(0,0,0,0.3);
+
+
+}
+.bluebg2{
+    height:242px;
+    width:1560px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+   {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+.sign{
+    text-align: center;
+    display: block;
+}
+.
+.info ul {
+
+}
+.info ul li {
+line-height: 40px;
+margin-left:40px;
+display: block;
+text-align: left;
+}
+
+
+/***footer   */
+
+.footer{
+    background-color:#f3ebeb;
+}
+.footer-top{
+    border-bottom: 1px solid #444;
+}
+.footer-widget h3 {
+ font-size: 25px;
+}
+.footer-widget ul {
+list-style: none;
+padding-left: 0px;
+margin-left: 0;
+
+
+}
+.footer-widget ul li {
+
+}
+.footer-widget ul li a {
+color:black ;
+}
+
+
+.footer-bottom2 ul {
+    list-style-type: none;
+}
+
+.footer-bottom2 ul {
+    list-style-type: none;
+}
+.footer-bottom2 ul li {
+    display: inline-block;
+    line-height: 20px;
+    padding:5px;
+}
+
+
+#tt{
+    font-size: 25px;
+}
+
+#fb {
+    color: #1062e6;
+    font-size: 25px;
+}
+
+#p{
+    font-size: 25px;
+    color: red;
+}
+#yb {
+    font-size: 25px;
+    color: red;
+}
+#insta{
+    font-size: 25px;
+    color: rgba(rgb(94, 43, 43), rgb(62, 62, 156), alpha);
+}
